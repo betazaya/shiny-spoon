@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+.navbtn{
+    background-color: transparent;
+    border: none
+}
+button:hover{
+    color: rgb(12, 180, 74);
+}
+.nav{
+    height: 40px;
+    border: 2px solid black;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+}
