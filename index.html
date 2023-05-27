@@ -13,57 +13,73 @@
     <div class="nav"
         style="display: flex; flex-direction: row; align-items: center; justify-content: space-between;margin-inline:3%; padding: 0;">
         <div style="display: flex;">
-            <div>Safe-Sync</div><img
-                src="https://static.vecteezy.com/system/resources/previews/007/526/761/original/traffic-light-icon-logo-design-template-vector.jpg"
-                alt="img" style="width: 20px;" />
+            <img src="https://mail.google.com/mail/u/0?ui=2&ik=986d0c8a4e&attid=0.1&permmsgid=msg-f:1767028585537449406&th=1885bf22ecebadbe&view=att&disp=safe&realattid=ii_li5mkdq30"
+                alt="img" style="width: 40px;" />
+            <div>
+                <h1>Safe-Sync</h1>
+            </div>
         </div>
         <div class="menu" style="display: flex; flex-direction: row; justify-content: flex-end;">
-            <button class="navbtn" href="/" style="margin:5%">Febuttontures</button>
-            <button class="navbtn" href="/" style="margin:5%">Pricing</button>
-            <button class="navbtn" href="/" style="margin:5%">Contact</button>
+            <button class="navbtn" href="/" style="margin:5%; font-size: 23px;">Febuttontures</button>
+            <button class="navbtn" href="/" style="margin:5%; font-size: 23px;">Pricing</button>
+            <button class="navbtn" href="/" style="margin:5%; font-size: 23px;">Contact</button>
         </div>
     </div>
     <div class="container" style="margin-inline: 7%;">
         <div class="intro"
             style="margin-top: 70px; margin-bottom: 150px ; flex-direction: column; align-items: center; display: flex; text-align: center;">
             <div class="title"
-                style="width: 75%; font-size: 80px; display: flex; text-align: center; margin-bottom:20px">Ai
+                style="width: 75%; font-size: 80px; display: flex; text-align: center; margin-bottom:20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                Ai
                 traffic
                 controller system
             </div>
-            <div style="font-size: 20px;">Red Herring is a enterprise solution that enables social media providers to
+            <div style="font-size: 20px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Red Herring is a
+                enterprise solution that enables social media providers to
                 detect, mark, and alert
                 users of
                 misinformation on their platforms.</div>
-            <button>hh</button>
+            <button class="lrn" onclick="myFunction()">Learn
+                more →</button>
         </div>
-        <div style="display: flex;flex-direction: column;align-items: center; margin-bottom: 120px;">
+        <div id="services" style="display: flex;flex-direction: column;align-items: center; margin-bottom: 120px;">
             <div style="font-size: 70px; margin-bottom:20px">Our services</div>
-            <div class="services" style="display: flex; flex-direction: row;">
-                <div style="width:30%; margin-inline:5%; font-size: 20px;"><b>Machine Learning to Flag Posts with
+            <div style="display: flex; flex-direction: row;">
+                <div
+                    style="width:30%; margin-inline:5%; font-size: 20px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    <b>Machine Learning to Flag Posts with
                         Misinformation</b><br>
                     The Red Herring flag will be displayed on social media posts that have been determined to contain
-                    misinformation.</div>
-                <div style="width:30%; margin-inline:5%; font-size: 20px;"><b>Correct Information</b><br>
+                    misinformation.
+                </div>
+                <div
+                    style="width:30%; margin-inline:5%; font-size: 20px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    <b>Correct Information</b><br>
                     After a flag has been issued, Red Herring reviews users who viewed the post prior to the flagging
                     and
                     issues
                     an “alert”
-                    to these users that contains fact checked information provided by our partner organizations.</div>
-                <div style="width:30%; margin-inline:5%; font-size: 20px;"><b>Misinformation Map</b><br>
+                    to these users that contains fact checked information provided by our partner organizations.
+                </div>
+                <div
+                    style="width:30%; margin-inline:5%; font-size: 20px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    <b>Misinformation Map</b><br>
                     A map displaying the path of misinformation from certain sources will be generated, showcasing the
                     source
                     and direct
                     contacts, enabling social media platforms to gain a better understanding of where misinformation is
                     coming
                     from and how
-                    it can be dealt with most effectively.</div>
+                    it can be dealt with most effectively.
+                </div>
             </div>
         </div>
         <div style="width:100%; display: flex; flex-direction: column; align-items: center;">
             <div class="pricing" style=" margin-bottom:150px; width: 60%; text-align: center;">
-                <div style="font-size: 70px; margin-bottom:15px">Pricing</div>
-                <div style="font-size: 20px;">
+                <div
+                    style="font-size: 70px; margin-bottom:15px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    Pricing</div>
+                <div style="font-size: 20px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
                     To request a demo of Red Herring's Enterprise features and prices, please email
                     info@red-herring.com. Someone from our team will be in contact with you within two business days.
                 </div>
@@ -71,6 +87,12 @@
         </div>
     </div>
     <footer></footer>
+    <script>
+        function myFunction() {
+            const element = document.getElementById("services");
+            element.scrollIntoView();
+        }
+    </script>
 </body>
 
 </html>

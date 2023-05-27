@@ -16,12 +16,24 @@ html {
 }
 button:hover{
     color: rgb(12, 180, 74);
+    transition-duration: 0.2s;
 }
 .nav{
     height: 40px;
-    border: 2px solid black;
 }
 .intro{
     display: flex;
     justify-content: center;
+}
+.lrn:hover{
+    border: 3px solid rgb(12, 180, 74);
+    background-color: white;
+}
+.lrn{
+    margin-top: 20px;
+    background-color: rgb(33, 194, 92);
+    border: none;
+    width: 115px;
+    height: 38px;
+    border-radius: 7px;
 }
